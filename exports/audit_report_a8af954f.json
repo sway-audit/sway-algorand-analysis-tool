@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "generated_at": "2025-09-26T12:06:18.932411",
+    "tool_version": "1.0.0",
+    "export_format": "json"
+  },
+  "contract": {
+    "name": "test_contract.teal",
+    "type": "teal",
+    "source": "text",
+    "size": 201,
+    "hash": "4fb567bf575f996afb3a81e7a4fbb866a40179c4cb17ac536ee6caa4fa3be401"
+  },
+  "analysis": {},
+  "findings": [],
+  "metrics": {
+    "security_score": 100.0,
+    "complexity_score": 92.0,
+    "gas_efficiency_score": 100.0,
+    "total_findings": 0
+  },
+  "recommendations": []
+}

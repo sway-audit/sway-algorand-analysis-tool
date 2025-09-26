@@ -487,10 +487,23 @@ class ContractAuditServer {
   }
 }
 
+// DEPRECATED: This Node.js server has been replaced by the Python FastAPI backend (main.py)
+// To start the new backend, run: python3 main.py
+// This file is kept for reference only
+
 // Start the server
 if (require.main === module) {
-  const server = new ContractAuditServer();
-  server.start();
+  console.log("⚠️  DEPRECATED: This Node.js server has been replaced!");
+  console.log("🐍 Please use the new Python FastAPI backend instead:");
+  console.log("   python3 main.py");
+  console.log("");
+  console.log("The new backend provides:");
+  console.log("✅ Enhanced security analysis");
+  console.log("✅ GitHub integration");
+  console.log("✅ Blockchain address support");
+  console.log("✅ Production-ready error handling");
+  console.log("");
+  process.exit(1);
 }
 
 module.exports = ContractAuditServer;
